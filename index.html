@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+</head>
+
+<body>
+    <!-- Checkbox -->
+    <p>Como você avalia essa página?</p>
+    <input type="checkbox" name="bom" value="1">Bom
+    <input type="checkbox" name="médio" value="2">Intermediário
+    <input type="checkbox" name="ruim" value="3">Em desenvolvimento
+
+    <!-- botão de rádio -->
+    <p>Você é:</p>
+    <input type="radio" name="Cliente" value="1">Cliente
+    <input type="radio" name="aluno" value="2">Aluno
+    <input type="radio" name="professor" value="3">Professor
+
+    <form>
+        <!-- Nome -->
+        <label for="nome">Primeiro nome:</label>
+        <!-- Data -->
+        <input type="data" name="data">
+
+        <!-- Email -->
+        <label for="email">Informe seu e-mail:</label>
+        <input type="email" name="data" placeholder="email@gmail.com">
+
+        <!--Mensagem-->
+        <label for="mensagem">Digite sua mensagem:</label>
+        <input type="text" name="mensagem">
+        <!--Estado-->
+        <p>Informe de onde você é:</p>
+         <select name="estado">
+            <option value="nda">----</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="fora">Exterior</option>
+         </select>
+         
+         <!-- botão -->
+          <input type="submit" name="Enviar">
+
+    </form>
+
+</body>
+
+</html>
